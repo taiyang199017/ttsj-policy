@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>团团手记 隐私政策</title>
+<style>
+  body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;max-width:760px;margin:0 auto;padding:24px 18px 60px;line-height:1.8;color:#1f2329;background:#fff;}
+  h1{font-size:22px;text-align:center;margin:0 0 6px;}
+  .meta{text-align:center;color:#8a9099;font-size:13px;margin-bottom:28px;}
+  h2{font-size:17px;margin:28px 0 10px;padding-left:10px;border-left:4px solid #4a90d9;}
+  p,li{font-size:15px;}
+  table{border-collapse:collapse;width:100%;margin:10px 0;font-size:14px;}
+  th,td{border:1px solid #e3e6eb;padding:8px 10px;text-align:left;vertical-align:top;}
+  th{background:#f5f7fa;}
+  .hl{color:#c0392b;font-weight:600;}
+  a{color:#4a90d9;word-break:break-all;}
+  footer{margin-top:36px;color:#8a9099;font-size:13px;text-align:center;}
+</style>
+</head>
+<body>
+<h1>团团手记 隐私政策</h1>
+<div class="meta">生效日期：2026-09-29　|　应用名称：团团手记　|　包名：com.dell.ledger<br>开发者：个人开发者</div>
+
+<h2>一、我们如何收集与使用您的信息</h2>
+<p>团团手记是一款<span class="hl">纯本地记账工具</span>。您的全部数据（账目、账户、资产、分类、备注等）均<span class="hl">仅存储于您本人设备本地数据库</span>（HarmonyOS relationalStore），<span class="hl">不会通过任何网络上传至服务器，我们亦不拥有任何云端副本</span>。</p>
+<p><span class="hl">无账号体系</span>：本应用<span class="hl">不提供注册、登录功能</span>，不存在任何账号相关的个人信息（如手机号、邮箱账号、第三方账号绑定等）；您无需注册即可完整使用全部功能。</p>
+<p>我们仅在您主动操作时，于设备本地处理以下信息：</p>
+<ul>
+  <li><strong>账目录入</strong>：您主动输入的支出、收入、转账、分期、贷款等信息，仅保存在本机。</li>
+  <li><strong>屏幕内容识别（OCR）</strong>：当您主动点击"识别"并授权抓取屏幕后，系统对屏幕上的账单/支付页面进行<span class="hl">本地 OCR 文字识别</span>，用于自动提取金额与收支方向。<span class="hl">识别过程完全在设备本地完成，截屏与识别结果不上传任何服务器。</span></li>
+  <li><strong>剪贴板读取</strong>：当您主动点击"粘贴"按钮时，应用读取剪贴板中您复制的账单文本用于自动记账。<span class="hl">我们不会在您无交互的情况下后台读取剪贴板。</span></li>
+  <li><strong>应用外悬浮球</strong>：该能力（系统闪控球）仅在您主动点击悬浮球时启动识别流程，不在后台无感知运行。</li>
+</ul>
+
+<h2>二、权限说明</h2>
+<table>
+  <tr><th>权限</th><th>用途</th><th>触发方式</th></tr>
+  <tr><td>屏幕抓取<br>（CUSTOM_SCREEN_CAPTURE）</td><td>识别支付/账单页面以自动记账</td><td>您主动点击"识别"时弹窗授权</td></tr>
+  <tr><td>悬浮球<br>（USE_FLOAT_BALL）</td><td>应用外一键唤起识别</td><td>您主动开启开关并点击悬浮球</td></tr>
+  <tr><td>握姿检测<br>（DETECT_GESTURE）</td><td>根据左手/右手握持方向调整悬浮球位置</td><td>您开启应用外悬浮球后，系统根据握持方向自动调整</td></tr>
+  <tr><td>剪贴板读取</td><td>粘贴账单文本自动记账</td><td>您主动点击"粘贴"按钮</td></tr>
+</table>
+<p>上述权限均<span class="hl">不用于任何与记账无关的目的，亦不会在后台静默调用</span>。</p>
+<p><span class="hl">无第三方组件</span>：本应用未接入任何第三方 SDK、统计分析、广告或埋点组件，不使用 Cookie 及同类追踪技术，不存在向第三方共享或委托处理个人信息的情形。</p>
+
+<h2>三、数据存储与删除</h2>
+<ul>
+  <li>所有数据保存在您的设备本地。您可在应用内删除单条记录、清空数据，或通过卸载应用彻底清除。</li>
+  <li>我们<span class="hl">不提供</span>云端备份/同步，因此设备丢失或损坏可能导致数据不可恢复，请您自行注意。</li>
+</ul>
+
+<h2>四、未成年人保护</h2>
+<p>本应用不面向未成年人设计，亦不主动收集任何个人信息。</p>
+
+<h2>五、联系我们</h2>
+<p>本应用为纯离线工具，未内置联网反馈通道——您的任何反馈都不会经过本应用的服务器（本应用也没有服务器）。</p>
+<p>如您对隐私政策有任何疑问、或需要查询 / 复制 / 删除与您相关的数据，可通过以下方式直接联系开发者：</p>
+<ul>
+  <li>QQ：291371885</li>
+  <li>邮箱：<a href="mailto:291371885@qq.com">291371885@qq.com</a></li>
+</ul>
+<p>（以上联系方式在应用内「我的 — 关于 — 联系我们」中同样可查看，点击即可复制到剪贴板。）</p>
+
+<h2>六、其他</h2>
+<p>本应用通过华为应用市场分发。我们保留根据法律法规调整本政策的权利。</p>
+
+<footer>团团手记 · 纯本地记账工具 · 不联网、不收集个人信息</footer>
+</body>
+</html>
